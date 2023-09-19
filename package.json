@@ -13,15 +13,16 @@
     "new:component": "hygen lit-component new",
     "new:page": "hygen lit-page new"
   },
-  "dependencies": {
-    "lit": "^2.7.4"
-  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "hygen": "^6.2.11",
+    "lit": "^2.8.0",
     "parcel": "^2.8.3",
     "parcel-transformer-lit-sass": "^0.1.0",
     "sass": "^1.62.1",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.2"
   }
 }
